@@ -1,0 +1,127 @@
+/* ===========================================
+   GLOBAL TYPOGRAPHY AND BASE LAYOUT
+   ===========================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Montserrat:wght@500;600;700&display=swap');
+
+html,
+body,
+[class^="css"] {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 12px !important;
+    line-height: 1.55 !important;
+    color: #222 !important;
+}
+
+/* TITLES */
+h1 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 42px !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+    margin-top: 0.8rem !important;
+    margin-bottom: 0.1rem !important;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    margin-top: 0.5rem !important;
+    /* less white space */
+    margin-bottom: 0.1rem !important;
+    text-align: center !important;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    /* real bold */
+    margin-bottom: 0.5rem !important;
+    margin-top: 1.2rem !important;
+}
+
+/* SMALL TEXT */
+.small-text {
+    font-size: 25px !important;
+    color: #555 !important;
+    text-align: center !important;
+    margin-top: 0.1rem !important;
+    margin-bottom: 0.1rem !important;
+    /* reduced spacing */
+}
+
+/* ===========================================
+   CARDS
+   ===========================================*/
+.card {
+    background-color: #F7F9FC;
+    border-radius: 0.9rem;
+    padding: 1.2rem 1.4rem;
+    border: 1px solid #E5E5E5;
+    margin-top: 0.6rem !important;
+    margin-bottom: 0.4rem !important;
+}
+
+.card-title {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    margin-bottom: 0.3rem !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.card-body {
+    font-size: 20px !important;
+    line-height: 1.45 !important;
+    color: #333 !important;
+}
+
+/* ===========================================
+   DIVIDER
+   ===========================================*/
+.section-divider {
+    height: 1px;
+    width: 100%;
+    background-color: #E2E2E2;
+    margin: 2.3rem 0 2rem 0;
+    /* reduced top spacing */
+}
+
+/* ===========================================
+   CONTAINERS
+   ===========================================*/
+
+/* reduce global padding */
+.block-container {
+    max-width: 94% !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-top: 0.3rem !important;
+}
+
+/* remove default Streamlit large gaps */
+div[data-testid="stMarkdown"] {
+    margin-top: 0.8rem !important;
+    margin-bottom: 0.2rem !important;
+}
+
+/* remove spacing before/after charts */
+.element-container {
+    margin-top: 0.2rem !important;
+    margin-bottom: 0.3rem !important;
+}
+
+/* ===========================================
+   ALIGNMENT UTILITIES
+   ===========================================*/
+.center {
+    text-align: center;
+}
+
+.explanation-text {
+    font-size: 25px !important;
+    color: #444 !important;
+    margin-bottom: 0.4rem !important;
+    margin-top: -0.6rem !important;
+}
